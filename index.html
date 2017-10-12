@@ -1,0 +1,93 @@
+<!doctype html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Feghas</title>
+
+<!-- links -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+
+    <body>
+<!-- Home -->
+<!-- About us -->
+        <div id="aboutUs" class="text-center">
+            <h2>About Us</h2>
+            <div class="aboutImage"></div>
+            <div class="container">
+                <p>Feghas Solutions Ltd is an Information and Communication Technology company which specializes in the provision of integrated solution to support the administrative functions within an organization.</p>
+                <p>We tailor our product to meet your need</p>
+                <p>We are consistent in quality of our products and services based on good customer relationship and quick response to client’s issues.</p>
+            </div>
+        </div>
+<!-- Product and Service -->
+        <div id="prodServ" class="text-center">
+            <h2>Product &amp Services</h2>
+            
+            <div class=" row">
+                
+                <div class="prodServItem col-xs-12 col-sm-6 col-md-4 col-lg-2 contain">E-Gov
+                    <div class="overlay">
+                        <div class="text">just dey explain</div>
+                    </div>
+                </div>
+                <div class="prodServItem col-xs-12 col-sm-6 col-md-4 col-lg-2 contain">Edu++
+                    <div class="overlay">
+                        <div class="text">just dey explain</div>
+                    </div>
+                </div>
+                <div class="prodServItem col-xs-12 col-sm-6 col-md-4 col-lg-2 contain">EduFeg
+                    <div class="overlay">
+                        <div class="text">just dey explain</div>
+                    </div>
+                </div>
+                <div class="prodServItem col-xs-12 col-sm-6 col-md-4 col-lg-2 contain">WebFeg
+                    <div class="overlay">
+                        <div class="text">just dey explain</div>
+                    </div>
+                </div>
+                <div class="prodServItem col-xs-12 col-sm-6 col-md-4 col-lg-2 contain">FegPay
+                    <div class="overlay">
+                        <div class="text">just dey explain</div>
+                    </div>
+                </div>
+                <div class="prodServItem col-xs-12 col-sm-6 col-md-4 col-lg-2 contain">E-teller
+                    <div class="overlay">
+                        <div class="text">just dey explain</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Partners -->
+<!-- footer -->
+        <div id="footer">
+            <div class="row">
+                <div class="col-lg-6" id="map"></div>
+                <div class="col-6"></div>
+            </div>
+        </div>
+
+<!-- Script -->
+    <script>
+        function initMap() {
+        var uluru = {lat: 6.6539498, lng: 3.3755754};
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 12,
+            center: uluru
+        });
+        var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+        });
+        }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCM9hFQP406cawDXON1_MASX-FzvbH6Idg&callback=initMap">
+    </script>
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
